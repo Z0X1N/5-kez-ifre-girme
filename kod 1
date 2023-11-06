@@ -1,0 +1,9 @@
+sayi = 1
+while sayi <= 5:
+    cevap = int(input("Parola giriniz."))
+    if cevap == 123:
+	    print("Girdiğiniz parola doğru")
+    else:
+        print("Girdiğiniz parola yanlış")
+    sayi +=1    
+print ("\nHakkınız bitti.")
